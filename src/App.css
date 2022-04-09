@@ -1,0 +1,15 @@
+nav{
+   display: flex;
+}
+
+nav>button{
+   margin-left: auto;
+}
+
+nav a{
+   width: 10ch;
+   text-align: center;
+}
+nav a:not(:nth-child(3)){
+   border-right: 1px solid black;
+}
