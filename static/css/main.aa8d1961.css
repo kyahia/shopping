@@ -1,0 +1,2 @@
+nav{display:flex}nav>button{margin-left:auto}nav a{text-align:center;width:10ch}nav a:not(:nth-child(3)){border-right:1px solid #000}.card{border:1px solid #000;display:inline-block;padding:.5rem;text-align:center;width:250px}.card input{width:50px}h2,h3{margin:0;text-align:left}.add-to-cart{background-color:red}.signs{background-color:#000;color:#fff;font-weight:700}label{display:block;margin:1rem 0}label input{text-align:center}#add-to-cart{width:15ch}#remove-from-cart{margin-left:2ch;width:15ch}table{text-align:center}
+/*# sourceMappingURL=main.aa8d1961.css.map*/
