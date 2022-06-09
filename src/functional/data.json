@@ -1,0 +1,18 @@
+[
+   { "id": 1, "name": "cat", "price": 100},
+   { "id": 2, "name": "dog", "price": 200},
+   { "id": 3, "name": "cow", "price": 500},
+   { "id": 4, "name": "snake", "price": 75},
+   { "id": 5, "name": "bear", "price": 1000},
+   { "id": 6, "name": "monkey", "price": 300},
+   { "id": 7, "name": "horse", "price": 900},
+   { "id": 8, "name": "eagle", "price": 400},
+   { "id": 9, "name": "red fish", "price": 75},
+   { "id": 10, "name": "duck", "price": 100},
+   { "id": 11, "name": "frog", "price": 75},
+   { "id": 12, "name": "goat", "price": 200},
+   { "id": 13, "name": "spider", "price": 150},
+   { "id": 14, "name": "mouse", "price": 50},
+   { "id": 15, "name": "octopus", "price": 300},
+   { "id": 16, "name": "pokemon", "price": 1000}
+]

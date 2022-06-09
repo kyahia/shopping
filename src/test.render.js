@@ -20,3 +20,30 @@ export default function Rend(){
 
    return (<h1>test<button onClick={no}>-</button></h1>);
 }
+
+
+// import { useState, useEffect } from 'react';
+
+// const animalPics = [
+//    { name: "cat", path: require('../assets/cat.jpg') },
+//    { name: "cats", path: require('../assets/sets/cats.jpg') },
+//    { name: "dog", path: require('../assets/sets/dog.jpg') },
+//    { name: "dogs", path: require('../assets/sets/dogs.jpg') },
+//    { name: "rabbit", path: require('../assets/sets/rabbit.jpg') }
+// ]
+
+// export default function Home(){
+//    const [img, setImg] = useState(cat);
+
+//    useEffect(function refreshImg(){
+//       setInterval(() => {
+//          setImg(animalPics[Math.floor(Math.random() * animalPics.length)])
+//       }, 1000);
+//    }, [])
+   
+//    return (
+//       <h1>Welcome to animals shop
+//          <img src={img.path} alt={img.name}></img>
+//       </h1>
+//    )
+// }

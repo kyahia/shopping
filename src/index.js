@@ -2,29 +2,21 @@ import Rend from "./test.render";
 
 import React, { useState, useEffect } from 'react';
 import {createRoot} from "react-dom/client";
-
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+
 
 import App from './App';
 import Catalogue from './routes/catalogue';
 import Home from './routes/home';
 import Invoice from './routes/invoice';
 
+import getProds from "./functional/functions";
 
 const Display = () => {
   const [cart, setCart] = useState([])
    
    useEffect(() => {
-      async function getProds(){
-         const res = await fetch('data.json')
-         const data = await res.json()
-         
-         setCart(data.map(el => {
-           el.quantity = 0
-           return el;
-         }));
-      }
-      getProds()
+      setCart(getProds())
    }, [])
   
   const addEl = (id, quantity) => {
@@ -55,6 +47,6 @@ root.render(
   <React.StrictMode>
     <Display />
   </React.StrictMode>
-)
+);
 
 // root.render(<Rend />);

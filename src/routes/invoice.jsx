@@ -26,7 +26,7 @@ export default function Invoice(props) {
                   </tbody>
                </table>
          }
-         <h1>Total: {props.data.reduce((prev, act) => prev + act.quantity * act.price, 0)} $</h1>
+         <h1 id="total">Total: {props.data.reduce((prev, act) => prev + act.quantity * act.price, 0)} $</h1>
       </React.Fragment>
    )
 }

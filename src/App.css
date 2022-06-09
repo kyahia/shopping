@@ -10,6 +10,15 @@ nav a{
    width: 10ch;
    text-align: center;
 }
-nav a:not(:nth-child(3)){
+nav a:not(:nth-last-child(2)){
    border-right: 1px solid black;
+}
+
+body {
+   min-height: 100vh;
+   background-image: url('./assets/cover.jpg');
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
