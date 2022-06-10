@@ -29,7 +29,7 @@ const Display = () => {
   }
   
   return (
-  <BrowserRouter>
+  <BrowserRouter basename="/shopping">
     <Routes>
       <Route path="/" element={<App data={cart}/>}>
         <Route index element={<Home />} />

@@ -15,9 +15,11 @@ function App(props) {
   return (
     <div className="App">
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/catalogue">Catalogue</Link>
-        <Link to="/invoice">Purchase</Link>
+        <ul>
+          <Link to="/">Home</Link>
+          <Link to="/catalogue">Catalogue</Link>
+          <Link to="/invoice">Purchase</Link>
+        </ul>
         <button style={style}>Articles: {props.data.filter( el => el.quantity > 0 ).length}</button>
       </nav>
       <main>

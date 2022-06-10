@@ -5,7 +5,9 @@ export default function Catalogue(props){
    return (
       <React.Fragment>
          <h1>Catalogue</h1>
-         {props.data.map(prod => <Card data={prod} key={"cata" + prod.id} onAdd={props.onAdd} />)}
+         <div className="cards">
+            {props.data.map(prod => <Card data={prod} key={"cata" + prod.id} onAdd={props.onAdd} />)}
+         </div>
       </React.Fragment>
    )
 }
